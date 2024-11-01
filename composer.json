@@ -1,0 +1,22 @@
+{
+    "name": "wpxon/wpx-gdpr-consent",
+    "description": "A Light-Weight, Simple and Complete GDPR Consent Plugin for WordPress.",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "WPxon",
+            "email": "wpxon7@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "tareq1988/wordpress-settings-api-class": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wgc\\": "includes/"
+        },
+        "files": [ "includes/functions.php" ]
+    }
+}

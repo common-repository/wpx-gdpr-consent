@@ -1,0 +1,86 @@
+.wgc_wrapper {    
+	background-color: #23282d;
+    color: white;
+    z-index: 999999999; 
+}
+.wgc_content_body {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+.wgc_wrapper .wgc_message {
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    padding-right: 2%;
+    vertical-align: middle;
+    font-size: 16px;
+}
+.wgc_actions {
+    display: inline-block;
+}
+.wgc_more_link:hover{
+	text-decoration: underline;
+}
+.wgc_wrapper .wgc_actions .gdpr-acpt-btn {
+    background-color: #0085ba;
+    color: #fff;
+    padding: 0px 12px;
+    border-radius: 5px;
+}
+.wgc_wrapper .wgc_actions .gdpr-acpt-btn:hover {
+    background-color: #008ec2; 
+}
+.wgc_wrapper .wgc_actions .wgc_button {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    padding: 7px 20px;
+}
+.wgc_ht {
+    margin: 0px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    padding: 0px;
+    z-index: 999999999999;
+}
+.wgc_fb {
+    margin: 0px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 0px;
+    z-index: 999999999999;
+}
+.wgc_fl {
+    position: fixed;
+    bottom: 0px;
+    left: 0px; 
+}
+.wgc_fr {
+    position: fixed;
+    bottom: 0px;
+    right: 0px; 
+}
+.wgc_fl .wgc_content_body, 
+.wgc_fr .wgc_content_body {
+    max-width: 350px;
+    padding: 10px;
+}
+.wgc_fl .wgc_content_body .wgc_message, 
+.wgc_fr .wgc_content_body .wgc_message {
+    margin: 0 0 5px 0;
+}
+a.wgc_more_link {
+    color: #fff;
+    opacity: .6;
+    text-decoration: underline;
+    transition:.4s;
+}
+a.wgc_more_link:hover {
+    opacity: 1;
+    text-decoration: none;
+}
